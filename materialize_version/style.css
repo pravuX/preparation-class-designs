@@ -37,3 +37,15 @@
 .boxes {
     padding: 20px;
 }
+
+#instructors a {
+    color: black;
+}
+
+#instructors img {
+    padding-top: 20px;
+}
+
+#instructors h2 {
+    padding-top: 20px;
+}
