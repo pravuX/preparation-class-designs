@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase::before {
+    display: block;
+    content: '';
+    height: 30px;
+}
+
+.showcase-img {
+    width: 50%;
+    height: auto;
+}
+
+.showcase .btn {
+    margin-bottom: 10px;
+}
+
+.booking {
+    padding: 20px 0;
+}
+
+.booking .btn {
+    margin-left: 5px;
+}
+
+.booking .valign-wrapper,
+.booking .input-group{
+    flex-grow: 1;
+}
+
+.boxes {
+    padding: 20px;
+}

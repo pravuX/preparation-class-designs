@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mayaa Preparation Classes</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper deep-purple z-depth-1">
+            <div class="container">
+                <a href="#" class="brand-logo">Mayaa</a>
+                <!-- collapsible menu -->
+                <a href="#" class="sidenav-trigger right" data-target="sidebar">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#learn">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#questions">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#instructors">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- for the sidebar -->
+    <ul class="sidenav" id="sidebar">
+        <li>
+            <a href="#learn">Courses</a>
+        </li>
+        <li>
+            <a href="#questions">FAQ</a>
+        </li>
+        <li>
+            <a href="#instructors">Instructors</a>
+        </li>
+    </ul>
+
+    <!-- Showcase -->
+    <section class="deep-purple white-text showcase">
+        <div class="container">
+            <div class="flex">
+                <div>
+                    <h2>Achieve Your <span class="red-text text-lighten-4">Dreams</span></h2>
+                    <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ab?
+                        Quisquam est ad
+                        repellendus mollitia quia consequuntur ipsam error odit repellat. Unde laudantium veniam sit
+                        adipisci inventore? Sit, tempora labore.</p>
+                    <button class="btn deep-purple darken-3 waves-effect waves-light" data-toggle="modal"
+                        data-target="#enroll">Enroll
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+                <img class="showcase-img hide-on-small-and-down" src="img/showcase.svg" alt="a classroom">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Booking -->
+    <section class="deep-purple darken-3 white-text booking">
+        <div class="container">
+            <div class="flex">
+                <div class="valign-wrapper">
+                    <h4>Book your seat today!</h4>
+                </div>
+                <div class="input-group">
+                    <div class="flex">
+                        <input type="text" placeholder="Enter email">
+                        <button class="btn deep-purple" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="boxes">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card deep-purple">
+                        <div class="card-content white-text center-align">
+                            <i class="medium material-icons">library_books</i>
+                            <span class="card-title">Free Books</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ratione rerum numquam
+                                vero quae illum.
+                            </p>
+                        </div>
+                        <div class="card-action center-align">
+                            <button class="btn deep-purple darken-3 waves-effect waves-light">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card deep-purple darken-3">
+                        <div class="card-content white-text center-align">
+                            <i class="medium material-icons">supervisor_account</i>
+                            <span class="card-title">1:1 STR Ratio</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ratione rerum numquam
+                                vero quae illum.
+                            </p>
+                        </div>
+                        <div class="card-action center-align">
+                            <button class="btn deep-purple waves-effect waves-light">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card deep-purple">
+                        <div class="card-content white-text center-align">
+                            <i class="medium material-icons">laptop_mac</i>
+                            <span class="card-title">Online Access</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ratione rerum numquam
+                                vero quae illum.
+                            </p>
+                        </div>
+                        <div class="card-action center-align">
+                            <button class="btn deep-purple darken-3 waves-effect waves-light">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+    </script>
+</body>
+
+</html>
