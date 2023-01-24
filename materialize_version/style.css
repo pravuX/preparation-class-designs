@@ -10,12 +10,14 @@
     height: 30px;
 }
 
-.showcase-img {
+.showcase-img,
+.learn-img {
     width: 50%;
     height: auto;
 }
 
-.showcase .btn {
+.showcase .btn,
+#learn .btn{
     margin-bottom: 10px;
 }
 
