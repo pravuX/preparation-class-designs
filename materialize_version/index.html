@@ -167,7 +167,7 @@
         <div class="container">
             <div class="flex">
                 <div>
-                    <h2>Mock Tests Every Weekend</h2>
+                    <h2>Take Classes from Anywhere</h2>
                     <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati consectetur
                         dignissimos harum esse magni perferendis.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium itaque modi natus commodi
@@ -182,13 +182,47 @@
         </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="questions">
+        <div class="container">
+            <h2 class="center-align">Frequently Asked Questions</h2>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons left">looks_one</i>Where are you located?</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons left">looks_two</i>Do you offer morning shifts?</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons left">looks_3</i>How much does it cost?</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons left">looks_4</i>Can I pay by eSewa/ Khalti?</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons left">looks_5</i>Do you offer CEE preparation classes?</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Instructors -->
 
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, {});
+            // Sidenav
+            var sidenavs = document.querySelectorAll('.sidenav');
+            var sidenav_instances = M.Sidenav.init(sidenavs, {});
+            // Accordion
+            var accordions = document.querySelectorAll('.collapsible');
+            var accordion_instances = M.Collapsible.init(accordions, {});
         });
     </script>
 </body>
