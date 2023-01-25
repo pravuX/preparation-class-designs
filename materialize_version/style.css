@@ -26,7 +26,7 @@ iframe {
 }
 
 .showcase .btn,
-#learn .btn{
+.learn .btn{
     margin-bottom: 10px;
 }
 
@@ -47,9 +47,13 @@ iframe {
     padding: 20px;
 }
 
+.learn .flex > :nth-child(2) {
+    padding-left: 20px;
+}
+
 #instructors,
 #questions,
-#learn{
+.learn{
     padding: 20px 0;
 }
 

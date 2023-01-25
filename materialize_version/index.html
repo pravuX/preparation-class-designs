@@ -16,7 +16,7 @@
 <body>
 
     <!-- Navbar -->
-    <div class="navbar-fixed">
+    <div class="navbar-fixed scrollspy" id="navbar">
         <nav class="nav-wrapper deep-purple z-depth-1">
             <div class="container">
                 <a href="#" class="brand-logo">Mayaa</a>
@@ -144,7 +144,7 @@
     </section>
 
     <!-- Services -->
-    <section id="learn">
+    <section id="learn" class="learn scrollspy">
         <div class="container">
             <div class="flex">
                 <img src="img/exams.svg" class="learn-img" alt="person taking an exam">
@@ -163,7 +163,7 @@
         </div>
     </section>
 
-    <section id="learn" class="deep-purple white-text">
+    <section class="deep-purple white-text learn">
         <div class="container">
             <div class="flex">
                 <div>
@@ -183,7 +183,7 @@
     </section>
 
     <!-- FAQ -->
-    <section id="questions">
+    <section id="questions" class="scrollspy">
         <div class="container">
             <h2 class="center-align">Frequently Asked Questions</h2>
             <ul class="collapsible">
@@ -217,7 +217,7 @@
     </section>
 
     <!-- Instructors -->
-    <section id="instructors" class="deep-purple">
+    <section id="instructors" class="deep-purple scrollspy">
         <div class="container">
             <h2 class="center-align white-text">Our Instructors</h2>
             <p class="flow-text center-align white-text">
@@ -361,8 +361,10 @@
         <div class="container">
             <p class="flow-text">Copyright &copy; 2042 Mayaa Devs</p>
             <!-- floating go up button -->
-            <a href="#" class="go-up btn-floating btn-large deep-purple darken-3 waves-effect waves-light">
-                <i class="material-icons">arrow_upward</i>
+            <a href="#navbar" class="go-up btn-floating btn-large deep-purple darken-3 waves-effect waves-light">
+                <!-- Style added because for some reason clicking on the
+                i tag prevented smooth scrolling -->
+                <i class="material-icons" style="pointer-events: none;">arrow_upward</i>
             </a>
         </div>
     </footer>
