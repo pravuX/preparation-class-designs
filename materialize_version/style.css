@@ -47,15 +47,17 @@ iframe {
     padding: 20px;
 }
 
+#instructors,
+#questions,
+#learn{
+    padding: 20px 0;
+}
+
 #instructors a {
     color: black;
 }
 
 #instructors img {
-    padding-top: 20px;
-}
-
-#instructors h2 {
     padding-top: 20px;
 }
 

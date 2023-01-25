@@ -63,8 +63,8 @@
                         Quisquam est ad
                         repellendus mollitia quia consequuntur ipsam error odit repellat. Unde laudantium veniam sit
                         adipisci inventore? Sit, tempora labore.</p>
-                    <button class="btn deep-purple darken-3 waves-effect waves-light" data-toggle="modal"
-                        data-target="#enroll">Enroll
+                    <button class="btn deep-purple darken-3 waves-effect waves-light modal-trigger"
+                        data-target="enroll">Enroll
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -323,14 +323,47 @@
         </div>
     </section>
 
+    <!-- Enroll Modal -->
+    <div id="enroll" class="modal">
+        <div class="modal-content">
+            <h4>Enroll</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <form>
+                <div class="input-field">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+                <div class="input-field">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input id="phone" type="tel" class="validate">
+                    <label for="phone">Phone No.</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn deep-purple darken-3 waves-effect waves-light">Submit
+                <i class="material-icons right">send</i>
+            </button>
+            <a href="#!" class="btn grey modal-close waves-effect waves-light">Close
+                <i class="material-icons right">close</i>
+            </a>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="deep-purple white-text center-align footer">
         <div class="container">
-                <p class="flow-text">Copyright &copy; 2042 Mayaa Devs</p>
-                <!-- floating go up button -->
-                <a href="#" class="go-up btn-floating btn-large deep-purple darken-3 waves-effect waves-light">
-                    <i class="material-icons">arrow_upward</i>
-                </a>
+            <p class="flow-text">Copyright &copy; 2042 Mayaa Devs</p>
+            <!-- floating go up button -->
+            <a href="#" class="go-up btn-floating btn-large deep-purple darken-3 waves-effect waves-light">
+                <i class="material-icons">arrow_upward</i>
+            </a>
         </div>
     </footer>
 
